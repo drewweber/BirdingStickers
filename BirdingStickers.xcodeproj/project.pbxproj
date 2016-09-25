@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC61D7571D9866C2002D86C8 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC61D7561D9866C2002D86C8 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC61D75B1D9866C2002D86C8 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AC61D75A1D9866C2002D86C8 /* Stickers.xcstickers */; };
+		AC61D75C1D9866C2002D86C8 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AC61D75A1D9866C2002D86C8 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC61D7581D9866C2002D86C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC61D74C1D9866C2002D86C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC61D7551D9866C2002D86C8;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC61D7621D9866C2002D86C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AC61D7571D9866C2002D86C8 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC61D7521D9866C2002D86C8 /* BirdingStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdingStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC61D7561D9866C2002D86C8 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC61D75A1D9866C2002D86C8 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AC61D74B1D9866C2002D86C8 = {
+			isa = PBXGroup;
+			children = (
+				AC61D75A1D9866C2002D86C8 /* Stickers.xcstickers */,
+				AC61D7531D9866C2002D86C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC61D7531D9866C2002D86C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC61D7521D9866C2002D86C8 /* BirdingStickers.app */,
+				AC61D7561D9866C2002D86C8 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC61D7511D9866C2002D86C8 /* BirdingStickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC61D7631D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "BirdingStickers" */;
+			buildPhases = (
+				AC61D7501D9866C2002D86C8 /* Resources */,
+				AC61D7621D9866C2002D86C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC61D7591D9866C2002D86C8 /* PBXTargetDependency */,
+			);
+			name = BirdingStickers;
+			productName = BirdingStickers;
+			productReference = AC61D7521D9866C2002D86C8 /* BirdingStickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		AC61D7551D9866C2002D86C8 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC61D75F1D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				AC61D7541D9866C2002D86C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = AC61D7561D9866C2002D86C8 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC61D74C1D9866C2002D86C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Nemesis Code";
+				TargetAttributes = {
+					AC61D7511D9866C2002D86C8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 27V4AP4NXZ;
+						ProvisioningStyle = Automatic;
+					};
+					AC61D7551D9866C2002D86C8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 27V4AP4NXZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC61D74F1D9866C2002D86C8 /* Build configuration list for PBXProject "BirdingStickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC61D74B1D9866C2002D86C8;
+			productRefGroup = AC61D7531D9866C2002D86C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC61D7511D9866C2002D86C8 /* BirdingStickers */,
+				AC61D7551D9866C2002D86C8 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC61D7501D9866C2002D86C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC61D75C1D9866C2002D86C8 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC61D7541D9866C2002D86C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC61D75B1D9866C2002D86C8 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC61D7591D9866C2002D86C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC61D7551D9866C2002D86C8 /* StickerPackExtension */;
+			targetProxy = AC61D7581D9866C2002D86C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC61D75D1D9866C2002D86C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC61D75E1D9866C2002D86C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC61D7601D9866C2002D86C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 27V4AP4NXZ;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = NemesisCode.BirdingStickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC61D7611D9866C2002D86C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 27V4AP4NXZ;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = NemesisCode.BirdingStickers.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC61D7641D9866C2002D86C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 27V4AP4NXZ;
+				INFOPLIST_FILE = BirdingStickers/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = NemesisCode.BirdingStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC61D7651D9866C2002D86C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 27V4AP4NXZ;
+				INFOPLIST_FILE = BirdingStickers/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = NemesisCode.BirdingStickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC61D74F1D9866C2002D86C8 /* Build configuration list for PBXProject "BirdingStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC61D75D1D9866C2002D86C8 /* Debug */,
+				AC61D75E1D9866C2002D86C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC61D75F1D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC61D7601D9866C2002D86C8 /* Debug */,
+				AC61D7611D9866C2002D86C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC61D7631D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "BirdingStickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC61D7641D9866C2002D86C8 /* Debug */,
+				AC61D7651D9866C2002D86C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC61D74C1D9866C2002D86C8 /* Project object */;
+}
