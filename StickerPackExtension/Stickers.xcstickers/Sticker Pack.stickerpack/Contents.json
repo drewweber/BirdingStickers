@@ -1,6 +1,9 @@
 {
   "stickers" : [
     {
+      "filename" : "lifer.sticker"
+    },
+    {
       "filename" : "migration-fallout.sticker"
     },
     {
@@ -15,6 +18,6 @@
     "author" : "xcode"
   },
   "properties" : {
-    "grid-size" : "regular"
+    "grid-size" : "large"
   }
 }
