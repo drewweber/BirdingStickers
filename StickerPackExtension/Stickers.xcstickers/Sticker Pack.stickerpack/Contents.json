@@ -1,13 +1,22 @@
 {
   "stickers" : [
     {
-      "filename" : "nb1.sticker"
+      "filename" : "migration.sticker"
+    },
+    {
+      "filename" : "MM.sticker"
+    },
+    {
+      "filename" : "twitcher4life.sticker"
+    },
+    {
+      "filename" : "liferJunkie.sticker"
+    },
+    {
+      "filename" : "LIFERpie.sticker"
     },
     {
       "filename" : "nb2.sticker"
-    },
-    {
-      "filename" : "lifer.sticker"
     },
     {
       "filename" : "migration-fallout.sticker"
@@ -24,6 +33,6 @@
     "author" : "xcode"
   },
   "properties" : {
-    "grid-size" : "large"
+    "grid-size" : "regular"
   }
 }
