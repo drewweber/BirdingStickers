@@ -1,9 +1,6 @@
 {
   "stickers" : [
     {
-      "filename" : "migration.sticker"
-    },
-    {
       "filename" : "MM.sticker"
     },
     {
@@ -16,10 +13,19 @@
       "filename" : "LIFERpie.sticker"
     },
     {
-      "filename" : "nb2.sticker"
+      "filename" : "noTICKS.sticker"
+    },
+    {
+      "filename" : "eBird_it.sticker"
     },
     {
       "filename" : "migration-fallout.sticker"
+    },
+    {
+      "filename" : "nb2.sticker"
+    },
+    {
+      "filename" : "migration.sticker"
     },
     {
       "filename" : "rtha.sticker"

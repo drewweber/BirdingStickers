@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC61D7571D9866C2002D86C8 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC61D7561D9866C2002D86C8 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC61D7571D9866C2002D86C8 /* Birding Sticker Pack Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC61D7561D9866C2002D86C8 /* Birding Sticker Pack Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AC61D75B1D9866C2002D86C8 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AC61D75A1D9866C2002D86C8 /* Stickers.xcstickers */; };
 		AC61D75C1D9866C2002D86C8 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AC61D75A1D9866C2002D86C8 /* Stickers.xcstickers */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				AC61D7571D9866C2002D86C8 /* StickerPackExtension.appex in Embed App Extensions */,
+				AC61D7571D9866C2002D86C8 /* Birding Sticker Pack Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,8 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AC61D7521D9866C2002D86C8 /* BirdingStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdingStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC61D7561D9866C2002D86C8 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC61D7521D9866C2002D86C8 /* Birding Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birding Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC61D7561D9866C2002D86C8 /* Birding Sticker Pack Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Birding Sticker Pack Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC61D75A1D9866C2002D86C8 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,8 +54,8 @@
 		AC61D7531D9866C2002D86C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC61D7521D9866C2002D86C8 /* BirdingStickers.app */,
-				AC61D7561D9866C2002D86C8 /* StickerPackExtension.appex */,
+				AC61D7521D9866C2002D86C8 /* Birding Stickers.app */,
+				AC61D7561D9866C2002D86C8 /* Birding Sticker Pack Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,9 +63,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC61D7511D9866C2002D86C8 /* BirdingStickers */ = {
+		AC61D7511D9866C2002D86C8 /* Birding Stickers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC61D7631D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "BirdingStickers" */;
+			buildConfigurationList = AC61D7631D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "Birding Stickers" */;
 			buildPhases = (
 				AC61D7501D9866C2002D86C8 /* Resources */,
 				AC61D7621D9866C2002D86C8 /* Embed App Extensions */,
@@ -75,14 +75,14 @@
 			dependencies = (
 				AC61D7591D9866C2002D86C8 /* PBXTargetDependency */,
 			);
-			name = BirdingStickers;
+			name = "Birding Stickers";
 			productName = BirdingStickers;
-			productReference = AC61D7521D9866C2002D86C8 /* BirdingStickers.app */;
+			productReference = AC61D7521D9866C2002D86C8 /* Birding Stickers.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		AC61D7551D9866C2002D86C8 /* StickerPackExtension */ = {
+		AC61D7551D9866C2002D86C8 /* Birding Sticker Pack Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC61D75F1D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildConfigurationList = AC61D75F1D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "Birding Sticker Pack Extension" */;
 			buildPhases = (
 				AC61D7541D9866C2002D86C8 /* Resources */,
 			);
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = StickerPackExtension;
+			name = "Birding Sticker Pack Extension";
 			productName = StickerPackExtension;
-			productReference = AC61D7561D9866C2002D86C8 /* StickerPackExtension.appex */;
+			productReference = AC61D7561D9866C2002D86C8 /* Birding Sticker Pack Extension.appex */;
 			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
 		};
 /* End PBXNativeTarget section */
@@ -106,16 +106,18 @@
 				TargetAttributes = {
 					AC61D7511D9866C2002D86C8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NDD99L8YKV;
 						ProvisioningStyle = Automatic;
 					};
 					AC61D7551D9866C2002D86C8 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NDD99L8YKV;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = AC61D74F1D9866C2002D86C8 /* Build configuration list for PBXProject "BirdingStickers" */;
-			compatibilityVersion = "Xcode 8.0";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,8 +128,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC61D7511D9866C2002D86C8 /* BirdingStickers */,
-				AC61D7551D9866C2002D86C8 /* StickerPackExtension */,
+				AC61D7511D9866C2002D86C8 /* Birding Stickers */,
+				AC61D7551D9866C2002D86C8 /* Birding Sticker Pack Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -154,7 +156,7 @@
 /* Begin PBXTargetDependency section */
 		AC61D7591D9866C2002D86C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AC61D7551D9866C2002D86C8 /* StickerPackExtension */;
+			target = AC61D7551D9866C2002D86C8 /* Birding Sticker Pack Extension */;
 			targetProxy = AC61D7581D9866C2002D86C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -261,7 +263,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = NDD99L8YKV;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamessw.birdingstickers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamessw.birdingstickers.ext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -276,7 +278,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = NDD99L8YKV;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamessw.birdingstickers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamessw.birdingstickers.ext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC61D75F1D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+		AC61D75F1D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "Birding Sticker Pack Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC61D7601D9866C2002D86C8 /* Debug */,
@@ -333,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC61D7631D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "BirdingStickers" */ = {
+		AC61D7631D9866C2002D86C8 /* Build configuration list for PBXNativeTarget "Birding Stickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC61D7641D9866C2002D86C8 /* Debug */,
