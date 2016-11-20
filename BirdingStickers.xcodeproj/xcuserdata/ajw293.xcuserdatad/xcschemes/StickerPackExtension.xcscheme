@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC61D7551D9866C2002D86C8"
-               BuildableName = "Birding Sticker Pack Extension.appex"
-               BlueprintName = "Birding Sticker Pack Extension"
+               BuildableName = "StickerPackExtension.appex"
+               BlueprintName = "StickerPackExtension"
                ReferencedContainer = "container:BirdingStickers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AC61D7511D9866C2002D86C8"
-               BuildableName = "Birding Stickers.app"
-               BlueprintName = "Birding Stickers"
+               BuildableName = "BirdingStickers.app"
+               BlueprintName = "BirdingStickers"
                ReferencedContainer = "container:BirdingStickers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -48,8 +48,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC61D7551D9866C2002D86C8"
-            BuildableName = "Birding Sticker Pack Extension.appex"
-            BlueprintName = "Birding Sticker Pack Extension"
+            BuildableName = "StickerPackExtension.appex"
+            BlueprintName = "StickerPackExtension"
             ReferencedContainer = "container:BirdingStickers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -73,8 +73,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC61D7551D9866C2002D86C8"
-            BuildableName = "Birding Sticker Pack Extension.appex"
-            BlueprintName = "Birding Sticker Pack Extension"
+            BuildableName = "StickerPackExtension.appex"
+            BlueprintName = "StickerPackExtension"
             ReferencedContainer = "container:BirdingStickers.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
@@ -82,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC61D7551D9866C2002D86C8"
-            BuildableName = "Birding Sticker Pack Extension.appex"
-            BlueprintName = "Birding Sticker Pack Extension"
+            BuildableName = "StickerPackExtension.appex"
+            BlueprintName = "StickerPackExtension"
             ReferencedContainer = "container:BirdingStickers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -102,8 +102,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AC61D7511D9866C2002D86C8"
-            BuildableName = "Birding Stickers.app"
-            BlueprintName = "Birding Stickers"
+            BuildableName = "BirdingStickers.app"
+            BlueprintName = "BirdingStickers"
             ReferencedContainer = "container:BirdingStickers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
